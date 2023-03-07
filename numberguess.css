@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  padding: 20%;
+  background-color: #fffacdd1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.app-container {
+  display: grid;
+  background-color: coral;
+  padding: 20px;
+  grid-gap: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.25mm;
+  border-color: #4d4c4c;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.counter-container {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.grid-element {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+}
+
+.form {
+  color: rgba(0, 0, 0, 1);
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  text-align: center;
+  width: 95%;
+  font-size: 100%;
+}
+
+.button {
+  background-color: #5b7c99;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.5);
+}
